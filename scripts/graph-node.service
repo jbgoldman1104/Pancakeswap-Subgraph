@@ -1,0 +1,32 @@
+# /etc/systemd/system/graph-node.service
+
+[Unit]
+
+Description=graph-node
+
+ConditionPathExists=/usr/local/bin/graph-node
+
+After=network.target
+
+
+
+[Service]
+
+Type=simple
+
+User=root
+
+WorkingDirectory=/usr/local/bin
+
+ExecStart=/usr/local/bin/graph-node --postgres-url postgresql://postgres:daniel@localhost:5432/graphnodedb --ethereum-rpc mainnet:https://cronos-rpc.elk.finance --ipfs http://127.0.0.1:5001 --http-port 80
+Restart=on-failure
+
+RestartSec=10
+
+LimitNOFILE=4096
+
+
+
+[Install]
+
+WantedBy=multi-user.target

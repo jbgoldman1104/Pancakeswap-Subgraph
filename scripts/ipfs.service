@@ -1,0 +1,33 @@
+# /etc/systemd/system/ipfs.service
+
+[Unit]
+
+Description=ipfs
+
+ConditionPathExists=/usr/local/bin/ipfs
+
+After=network.target
+
+
+
+[Service]
+
+Type=simple
+
+User=root
+
+WorkingDirectory=/usr/local/bin
+
+ExecStart=/usr/local/bin/ipfs daemon
+
+Restart=on-failure
+
+RestartSec=10
+
+LimitNOFILE=4096
+
+
+
+[Install]
+
+WantedBy=multi-user.target
