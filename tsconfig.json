@@ -3,3 +3,4 @@
   "compilerOptions": {
     "types": ["@graphprotocol/graph-ts"]
   }
+}
