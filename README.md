@@ -1,3 +1,4 @@
+# Dex - Pancakeswap Subgraph
 
 TheGraph exposes a GraphQL endpoint to query the events and entities within the Binance Smart Chain and PancakeSwap ecosystem.
 
@@ -6,17 +7,6 @@ Currently, there are multiple subgraphs, but additional subgraphs can be added t
 ## Subgraphs
 
 1. **[Blocks]: Tracks all blocks on Binance Smart Chain.
-
-2. **[Exchange]: Tracks all PancakeSwap Exchange data with price, volume, liquidity, ...
-
-## Not Implemented from here
-3. **[Farm Auctions](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/farm-auctions)**: Tracks all PancakeSwap Farm Auctions with auctions and bids.
-
-4. **[Lottery](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/lottery)**: Tracks all PancakeSwap Lottery with rounds, draws and tickets.
-
-5. **[NFT Market (v1)](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/nft-market)**: Tracks all PancakeSwap NFT Market for ERC-721.
-
-6. **[Pairs](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/pairs)**: Tracks all PancakeSwap Pairs and Tokens.
 
 7. **[Pancake Squad](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/pancake-squad)**: Tracks all Pancake Squad metrics with Owners, Tokens (including metadata), and Transactions.
 
