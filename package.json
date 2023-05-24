@@ -8,17 +8,6 @@
   "license": "GPL-3.0-or-later",
   "workspaces": [
     "subgraphs/**/*"
-  ],
-  "scripts": {
-    "codegen": "lerna run codegen",
-    "build": "lerna run build",
-    "format:check": "prettier --check '*/**/*.{js,ts}'",
-    "format:write": "prettier --write '*/**/*.{js,ts}'",
-    "lint": "eslint '*/**/*.{js,ts}'",
-    "prepare": "husky install"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
     "@graphprotocol/graph-cli": "^0.21.0",
     "@graphprotocol/graph-ts": "^0.20.0",
