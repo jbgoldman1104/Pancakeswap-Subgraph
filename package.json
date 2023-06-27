@@ -3,12 +3,6 @@
   "description": "PancakeSwap Subgraph",
   "version": "2.0.0",
   "private": true,
-  "repository": "git@github.com:pancakeswap/pancake-subgraph.git",
-  "author": "PancakeSwap",
-  "license": "GPL-3.0-or-later",
-  "workspaces": [
-    "subgraphs/**/*"
-  ],
   "scripts": {
     "codegen": "lerna run codegen",
     "build": "lerna run build",
