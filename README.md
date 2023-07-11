@@ -4,12 +4,6 @@ TheGraph exposes a GraphQL endpoint to query the events and entities within the 
 
 Currently, there are multiple subgraphs, but additional subgraphs can be added to this repository, following the current architecture.
 
-## Subgraphs
-
-1. **[Blocks]: Tracks all blocks on Binance Smart Chain.
-
-2. **[Exchange]: Tracks all PancakeSwap Exchange data with price, volume, liquidity, ...
-
 ## Not Implemented from here
 3. **[Farm Auctions](https://thegraph.com/legacy-explorer/subgraph/pancakeswap/farm-auctions)**: Tracks all PancakeSwap Farm Auctions with auctions and bids.
 
