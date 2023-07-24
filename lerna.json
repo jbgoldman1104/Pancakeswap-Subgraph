@@ -1,4 +1,3 @@
-{
   "npmClient": "yarn",
   "packages": [
     "subgraphs/**/*"
